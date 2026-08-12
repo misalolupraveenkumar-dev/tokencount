@@ -2,8 +2,6 @@
 Manifest V3 
 Node.js Test Suite
  
-License: MIT
-
 A powerful, high-performance Chrome Browser Extension built with Manifest V3 for executing AI prompts and tracking token usage in real-time using Google's Gemini API.
 
 📌 Features
