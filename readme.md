@@ -14,27 +14,8 @@ A powerful, high-performance Chrome Browser Extension built with Manifest V3 for
 🔒 Secure Local Storage: Remembers your API key and model preferences using Chrome's encrypted chrome.storage.local.
 🧪 Comprehensive Test Suite: 100% automated test coverage including unit tests (node --test) and end-to-end browser tests in Google Chrome via Puppeteer.
 🏗️ Architecture & Directory Structure
-Mermaid diagram
-File Hierarchy
-text
 
-├── manifest.json              # Extension Manifest V3 configuration
-├── background.js              # Service worker handling Gemini API & token counting
-├── popup.html                 # Extension Popup UI markup
-├── popup.js                   # Popup event handlers, storage sync & DOM renderer
-├── dist/                      # Clean build directory for Chrome unpacked loading
-│   ├── manifest.json
-│   ├── background.js
-│   ├── popup.html
-│   └── popup.js
-├── test/                      # Automated test suite
-│   ├── manifest.test.js       # Manifest V3 integrity & schema tests
-│   ├── background.test.js     # Service worker & API integration tests
-│   ├── popup.test.js          # Popup UI & event handling tests
-│   └── browser.test.js        # Puppeteer E2E Chrome browser tests
-├── test_manual.js             # CLI script for direct API manual testing
-├── package.json               # Node.js test scripts and dependencies
-└── gemini-developer-assistant.zip # Distribution package for Chrome Web Store
+
 🛠️ Installation & Setup
 Option 1: Load Unpacked Folder in Chrome (Recommended)
 Clone or download this repository.
